@@ -439,6 +439,8 @@ header.fixed
     padding: 38px 0 42px;
 
     animation: moveDown .5s;
+
+    background: linear-gradient(180deg, #162d3d 0%, #03101b 100%);
 }
 
 
