@@ -1,0 +1,310 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 24px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .menu
+    {
+        display: none;
+    }
+
+
+    header .mob_menu_btn
+    {
+        display: flex;
+    }
+
+
+    header.fixed
+    {
+        box-shadow: 0 0 16px rgba(20, 59, 68, .50);
+    }
+
+
+    header.fixed .bg,
+    .menu_open header .bg
+    {
+        display: none;
+    }
+
+    header.fixed .mob_bg,
+    .menu_open header .mob_bg
+    {
+        display: block;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .all_link
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        Mob. all link
+    -------------------*/
+    .mob_all_link
+    {
+        display: block;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 0;
+        padding: 90px 24px 35px;
+    }
+
+
+    .first_section .pre_title
+    {
+        font-size: 24px;
+        line-height: 40px;
+
+        width: 304px;
+        max-width: 100%;
+    }
+
+
+    .first_section .title
+    {
+        font-weight: 500;
+        line-height: 40px;
+
+        width: 304px;
+        max-width: 100%;
+    }
+
+
+    .first_section .bg
+    {
+        display: none;
+    }
+
+    .first_section .mob_bg
+    {
+        display: block;
+    }
+
+
+
+    /*----------------
+        About text
+    ----------------*/
+    .about_text
+    {
+        padding: 24px 0;
+    }
+
+
+    .about_text .text_block
+    {
+        text-align: left;
+    }
+
+
+
+    /*----------------
+        Strategies
+    ----------------*/
+    .strategies
+    {
+        padding-top: 40px;
+    }
+
+
+    .strategies .row > *
+    {
+        width: 100%;
+    }
+
+
+    .strategies .strategy
+    {
+        padding: 32px 8px 26px;
+    }
+
+
+    .strategies .strategy .name
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .strategies .strategy .thumb
+    {
+        height: 216px;
+    }
+
+
+    .strategies .strategy .link
+    {
+        margin-top: 24px;
+        padding: 0 16px;
+    }
+
+    .strategies .strategy .link a
+    {
+        width: 100%;
+    }
+
+
+    .strategies .strategy.bg_white:before
+    {
+        background: #f7f7f8;
+    }
+
+    .strategies .strategy.bg_white + .strategy:before
+    {
+        background: #fff;
+    }
+
+
+
+    /*------------------
+        Technologies
+    ------------------*/
+    .technologies
+    {
+        position: relative;
+
+        padding: 32px 0 31px;
+    }
+
+
+    .technologies .block_title
+    {
+        font-size: 24px;
+
+        position: static;
+    }
+
+    .technologies .block_title:after
+    {
+        top: auto;
+        right: 19px;
+        bottom: 31px;
+    }
+
+
+    .technologies .row
+    {
+        justify-content: flex-start;
+    }
+
+    .technologies .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 48px 0 43px;
+    }
+
+
+    footer .cont
+    {
+        padding: 0 44px;
+    }
+
+
+
+    footer .links
+    {
+        width: 100%;
+    }
+
+    footer .links + .links
+    {
+        margin-top: 33px;
+    }
+
+
+    footer .links .items
+    {
+        font-size: 20px;
+    }
+
+    footer .links .items > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+    footer .title
+    {
+        font-size: 22px;
+
+        margin-bottom: 24px;
+    }
+
+
+    footer .copyright
+    {
+        font-size: 14px;
+
+        text-align: center;
+    }
+
+
+    footer .bg
+    {
+        display: none;
+    }
+
+    footer .mob_bg
+    {
+        display: block;
+    }
+}

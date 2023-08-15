@@ -1,0 +1,205 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 36px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    header .logo img
+    {
+        height: 40px;
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-left: 28px;
+    }
+
+    header .menu_item > a
+    {
+        font-size: 16px;
+    }
+
+
+
+    header.fixed,
+    .menu_open header
+    {
+        padding: 14px 0 18px;
+    }
+
+    header.fixed .logo img,
+    .menu_open header .logo img
+    {
+        height: 32px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .text_block > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 312px;
+        padding: 100px 24px;
+    }
+
+
+    .first_section .pre_title
+    {
+        font-size: 30px;
+        line-height: 46px;
+    }
+
+
+    .first_section .title
+    {
+        line-height: 46px;
+    }
+
+
+
+    /*----------------
+        About text
+    ----------------*/
+    .about_text .text_block br
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Strategies
+    ----------------*/
+    .strategies .strategy
+    {
+        padding: 28px 8px 48px;
+    }
+
+
+    .strategies .strategy .name
+    {
+        font-size: 20px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .strategies .strategy .thumb
+    {
+        height: 160px;
+    }
+
+
+    .strategies .strategy .link
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*------------------
+        Technologies
+    ------------------*/
+    .technologies .block_title
+    {
+        font-size: 28px;
+    }
+
+
+    .technologies .row > *
+    {
+        width: calc(25% - 24px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .links
+    {
+        width: calc(50% - 24px);
+    }
+
+    footer .links + .links
+    {
+        margin-left: auto;
+    }
+
+
+    footer .logo
+    {
+        width: 100%;
+        margin-top: 48px;
+    }
+
+    footer .logo img
+    {
+        height: 54px;
+    }
+
+
+    footer .copyright
+    {
+        width: 100%;
+        margin-top: 32px;
+        margin-left: 0;
+    }
+}

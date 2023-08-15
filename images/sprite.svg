@@ -1,0 +1,8 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="ic_close">
+    <path d="M21 4.41L19.59 3L12 10.59L4.41 3L3 4.41L10.59 12L3 19.59L4.41 21L12 13.41L19.59 21L21 19.59L13.41 12L21 4.41Z" fill="currentColor"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="ic_menu">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 7V5H24V7H0ZM0 13H24V11H0V13ZM0 19H24V17H0V19Z" fill="currentColor"></path>
+  </symbol>
+</svg>

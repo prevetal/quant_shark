@@ -1,0 +1,76 @@
+@media print,
+(max-width: 1439px)
+{
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 32px 0;
+    }
+
+
+    header .cont
+    {
+        padding: 0 40px;
+    }
+
+
+    header.fixed
+    {
+        padding: 20px 0;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 520px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+
+
+    /*----------------
+        About text
+    ----------------*/
+    .about_text .cont
+    {
+        padding: 0 40px;
+    }
+
+
+
+    /*----------------
+        Strategies
+    ----------------*/
+    .strategies .block_head
+    {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+
+
+    /*------------------
+        Technologies
+    ------------------*/
+    .technologies .cont
+    {
+        padding: 0 40px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont
+    {
+        padding: 0 40px;
+    }
+}
