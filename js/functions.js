@@ -1,21 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
-	// Есть ли поддержка тач событий или это apple устройство
-	if (!is_touch_device() && !navigator.platform.match(/(Mac|iPhone|iPod|iPad)/i)) {
-		document.documentElement.classList.add('custom_scroll')
-	}
-
-
 	// Ленивая загрузка
 	const boxes = document.querySelectorAll('.lazyload, .animate')
 
 	function scrollTracking(entries) {
 		for (const entry of entries) {
-			if (entry.intersectionRatio >= 0.2 && !entry.target.classList.contains('loaded')) {
+			if (entry.intersectionRatio >= 0.2 && entry.target.classList.contains('lazyload') && !entry.target.classList.contains('loaded')) {
 				entry.target.src = entry.target.getAttribute('data-src')
 				entry.target.classList.add('loaded')
 			}
 
-			if (entry.intersectionRatio >= 0.2 && entry.target.classList.contains('animate')) {
+			if (entry.intersectionRatio >= 0.2 && entry.target.classList.contains('animate') && !entry.target.classList.contains('animateв')) {
 				entry.target.classList.add('animated')
 			}
 		}
