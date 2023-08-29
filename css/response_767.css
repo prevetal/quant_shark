@@ -242,31 +242,20 @@
     ------------*/
     footer
     {
-        padding: 48px 0 43px;
-    }
-
-
-    footer .cont
-    {
-        padding: 0 44px;
+        padding: 24px 0 32px;
     }
 
 
 
     footer .links
     {
-        width: 100%;
-    }
-
-    footer .links + .links
-    {
-        margin-top: 33px;
+        width: auto;
     }
 
 
     footer .links .items
     {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     footer .links .items > * + *
@@ -277,9 +266,22 @@
 
     footer .title
     {
-        font-size: 22px;
+        font-size: 20px;
 
         margin-bottom: 24px;
+    }
+
+
+    footer .logo
+    {
+        margin-top: 40px;
+    }
+
+    footer .logo img
+    {
+        height: 43px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
 
@@ -287,7 +289,19 @@
     {
         font-size: 14px;
 
+        margin-top: 24px;
+
         text-align: center;
+    }
+
+    footer .copyright br
+    {
+        display: block;
+    }
+
+    footer .copyright br ~ br
+    {
+        display: none;
     }
 
 

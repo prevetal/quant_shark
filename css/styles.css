@@ -489,11 +489,6 @@ header.fixed .bg
     margin-top: 24px;
 }
 
-.mob_menu .menu > * + *.margin
-{
-    margin-top: 41px;
-}
-
 
 .mob_menu .menu .title
 {
@@ -1130,6 +1125,20 @@ footer .copyright > * + *
     {
         display: block;
     }
+
+
+
+    .technologies .row
+    {
+        margin-left: -40px;
+    }
+
+
+    .technologies .item
+    {
+        margin-left: 40px;
+    }
+
 
 
     footer .links + .links
