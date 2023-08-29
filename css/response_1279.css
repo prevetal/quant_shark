@@ -7,7 +7,6 @@
     :root
     {
         --font_size: 16px;
-        --font_size_title: 44px;
     }
 
 
@@ -114,6 +113,7 @@
 
     .first_section .title
     {
+        font-size: 44px;
         line-height: 54px;
     }
 
@@ -172,12 +172,6 @@
     .technologies .cont
     {
         padding: 0 24px;
-    }
-
-
-    .technologies .block_title
-    {
-        font-size: 34px;
     }
 
 

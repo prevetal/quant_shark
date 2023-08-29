@@ -224,13 +224,6 @@
         position: static;
     }
 
-    .technologies .block_title:after
-    {
-        top: auto;
-        right: 19px;
-        bottom: 31px;
-    }
-
 
     .technologies .row
     {
