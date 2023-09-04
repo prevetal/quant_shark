@@ -1,8 +1,17 @@
 <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="ic_arr_hor">
+    <path d="M9.70504 6L8.29504 7.41L12.875 12L8.29504 16.59L9.70504 18L15.705 12L9.70504 6Z" fill="currentColor"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="ic_arrow_hor">
+    <path d="M24 11H3.83L11.42 3.41L10 2L0 12L10 22L11.41 20.59L3.83 13H24V11Z" fill="currentColor"></path>
+  </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="ic_close">
     <path d="M21 4.41L19.59 3L12 10.59L4.41 3L3 4.41L10.59 12L3 19.59L4.41 21L12 13.41L19.59 21L21 19.59L13.41 12L21 4.41Z" fill="currentColor"></path>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="ic_menu">
     <path fill-rule="evenodd" clip-rule="evenodd" d="M0 7V5H24V7H0ZM0 13H24V11H0V13ZM0 19H24V17H0V19Z" fill="currentColor"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="ic_video_play">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 12C2 6.48 6.48 2 12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12ZM16 12L10 7.5V16.5L16 12Z" fill="currentColor"></path>
   </symbol>
 </svg>

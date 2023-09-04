@@ -20,11 +20,9 @@ window.addEventListener('load', function () {
 		$('body').toggleClass('menu_open')
 		$('.mob_menu').toggleClass('show')
 	})
-})
 
 
 
-window.addEventListener('load', function () {
 	// Фикс. шапка
 	headerInit = true,
 	headerHeight = $('header').outerHeight()
@@ -35,6 +33,16 @@ window.addEventListener('load', function () {
 	headerInit && $(window).scrollTop() > headerHeight
 		? $('header').addClass('fixed')
 		: $('header').removeClass('fixed')
+
+
+	// Поля в форме
+	$('.form .input, .form textarea').keyup(function() {
+		let _self = $(this)
+
+		_self.val()
+			? _self.addClass('active')
+			: _self.removeClass('active')
+	})
 })
 
 

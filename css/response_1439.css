@@ -23,6 +23,45 @@
 
 
 
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head .cont
+    {
+        padding: 0 40px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+
+    .text_block h2
+    {
+        font-size: 40px;
+    }
+
+
+    .text_block ul
+    {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .text_block ul li:before
+    {
+        top: 5px;
+    }
+
+
+
     /*-------------------
         First section
     -------------------*/
@@ -61,6 +100,129 @@
     .technologies .cont
     {
         padding: 0 40px;
+    }
+
+
+
+    /*-----------------
+        Our mission
+    -----------------*/
+    .our_mission .cont
+    {
+        padding: 0 40px;
+    }
+
+
+    .our_mission .text_block
+    {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+    .our_mission .author
+    {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .cont
+    {
+        padding: 0 40px;
+    }
+
+
+
+    /*------------
+        Career
+    ------------*/
+    .career .data
+    {
+        padding: 40px;
+    }
+
+
+    .career .data .title
+    {
+        font-size: 40px;
+    }
+
+
+    .career .apply_btn
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        padding: 60px 0;
+    }
+
+
+    .feedback .cont
+    {
+        padding: 0 40px;
+    }
+
+
+    .feedback .title
+    {
+        font-size: 40px;
+    }
+
+
+    .feedback .text_block
+    {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+
+    /*---------------------
+        Strategies list
+    ---------------------*/
+    .strategies_list
+    {
+        padding-top: 48px;
+    }
+
+
+    .strategies_list .cont
+    {
+        padding: 0 40px;
+    }
+
+
+    .strategies_list .strategy .title
+    {
+        font-size: 40px;
+    }
+
+
+
+    /*-------------------
+        Strategy info
+    -------------------*/
+    .strategy_info .cont
+    {
+        padding: 0 40px;
+    }
+
+
+    .strategy_info .title
+    {
+        font-size: 40px;
     }
 
 

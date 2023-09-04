@@ -11,13 +11,9 @@
     }
 
 
-
-    /*--------------
-        Fancybox
-    --------------*/
-    .fancybox__slide
+    .block
     {
-        padding: 20px;
+        margin-bottom: 40px;
     }
 
 
@@ -25,6 +21,18 @@
     /*------------
         Header
     ------------*/
+    header
+    {
+        padding: 14px 0 18px;
+    }
+
+
+    header .logo img
+    {
+        height: 32px;
+    }
+
+
     header .menu
     {
         display: none;
@@ -44,15 +52,39 @@
 
 
     header.fixed .bg,
+    header .bg,
     .menu_open header .bg
     {
         display: none;
     }
 
     header.fixed .mob_bg,
+    header .mob_bg,
     .menu_open header .mob_bg
     {
         display: block;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 24px;
+        padding-top: 16px;
+    }
+
+    .page_head .cont
+    {
+        padding: 0 16px;
+    }
+
+
+    .breadcrumbs
+    {
+        font-size: 12px;
     }
 
 
@@ -67,12 +99,38 @@
 
 
 
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block ol li:before
+    {
+        font-size: 17px;
+    }
+
+
+
     /*-------------------
         Mob. all link
     -------------------*/
     .mob_all_link
     {
         display: block;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .submit
+    {
+        padding: 0;
+    }
+
+
+    .form .submit_btn
+    {
+        width: 100%;
     }
 
 
@@ -84,6 +142,62 @@
     {
         font-size: 15px;
         line-height: 20px;
+    }
+
+
+    .text_block h2
+    {
+        font-size: 24px;
+
+        margin-bottom: 16px !important;
+
+        text-align: center;
+    }
+
+    .text_block * + h2
+    {
+        margin-top: 24px;
+    }
+
+
+    .text_block ul
+    {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        padding-left: 0;
+    }
+
+
+    .text_block ul li
+    {
+        padding-left: 24px;
+    }
+
+    .text_block ul li:before
+    {
+        top: 6px;
+
+        width: 8px;
+        height: 8px;
+    }
+
+    .text_block ul li + li
+    {
+        margin-top: 8px;
+    }
+
+
+    .text_block .video
+    {
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+
+    .text_block .video .btn
+    {
+        width: 100%;
+
+        justify-content: center;
     }
 
 
@@ -139,8 +253,11 @@
     }
 
 
-    .about_text .text_block
+    .about_text .text
     {
+        font-size: 15px;
+        line-height: 20px;
+
         text-align: left;
     }
 
@@ -233,6 +350,207 @@
     .technologies .row > *
     {
         width: calc(50% - 24px);
+    }
+
+
+
+    /*-----------------
+        Our mission
+    -----------------*/
+    .our_mission
+    {
+        margin-bottom: 32px;
+        padding: 24px 0 0;
+    }
+
+
+    .our_mission .data
+    {
+        width: 100%;
+    }
+
+
+    .our_mission .text_block
+    {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+
+    .our_mission .author
+    {
+        margin-top: 16px;
+    }
+
+
+    .our_mission .author .socials a + a
+    {
+        margin-left: 32px;
+    }
+
+    .our_mission .author .socials img
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .our_mission .image
+    {
+        position: relative;
+
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        padding-bottom: 100%;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .cont
+    {
+        padding: 0 24px;
+    }
+
+
+
+    /*------------
+        Career
+    ------------*/
+    .career .list:not(.mob_show)
+    {
+        display: none;
+    }
+
+
+    .career .list .title
+    {
+        display: block;
+    }
+
+
+    .career .list .items a
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        padding: 24px 48px 24px 24px;
+    }
+
+    .career .list .items a .icon
+    {
+        display: block;
+    }
+
+
+    .career .data .title
+    {
+        font-size: 24px;
+
+        margin-bottom: 16px;
+        padding: 0 32px;
+
+        text-align: center;
+    }
+
+
+    .career .data .title .back_link
+    {
+        display: flex;
+    }
+
+
+    .career .apply_btn
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .title
+    {
+        font-size: 24px;
+
+        text-align: center;
+    }
+
+
+    .feedback .text_block
+    {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+
+    .feedback .text_block,
+    .feedback .form
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*---------------------
+        Strategies list
+    ---------------------*/
+    .strategies_list
+    {
+        padding-top: 24px;
+    }
+
+
+    .strategies_list .strategy + .strategy
+    {
+        margin-top: 32px;
+    }
+
+
+    .strategies_list .strategy .title
+    {
+        font-size: 24px;
+
+        margin-bottom: 24px;
+
+        text-align: center;
+    }
+
+
+    .strategies_list .strategy .more .line
+    {
+        display: none;
+    }
+
+    .strategies_list .strategy .more a
+    {
+        width: 100%;
+        margin: 0;
+    }
+
+
+
+    /*-------------------
+        Strategy info
+    -------------------*/
+    .strategy_info:not(.block)
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .strategy_info .title
+    {
+        font-size: 24px;
+
+        margin-bottom: 24px;
+
+        text-align: center;
     }
 
 

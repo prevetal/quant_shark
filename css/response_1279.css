@@ -18,22 +18,14 @@
 
 
 
-    /*--------------
-        Fancybox
-    --------------*/
-    .fancybox__slide
-    {
-        padding: 32px;
-    }
-
-
-
     /*------------
         Header
     ------------*/
     header
     {
         padding: 24px 0;
+
+        box-shadow: 0 0 16px rgba(20, 59, 68, .50);
     }
 
 
@@ -61,6 +53,16 @@
 
 
 
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head .cont
+    {
+        padding: 0 24px;
+    }
+
+
+
     /*----------------
         Block head
     ----------------*/
@@ -82,14 +84,37 @@
     ----------------*/
     .text_block
     {
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 26px;
     }
 
 
-    .text_block > *
+    .text_block h2
     {
-        margin-bottom: 24px;
+        font-size: 32px;
+    }
+
+
+    .text_block ul
+    {
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+
+    .text_block ul li + li
+    {
+        margin-top: 12px;
+    }
+
+    .text_block ul li:before
+    {
+        top: 4px;
+    }
+
+
+    .text_block ol li:before
+    {
+        font-size: 18px;
     }
 
 
@@ -125,6 +150,13 @@
     .about_text .cont
     {
         padding: 0 24px;
+    }
+
+
+    .about_text .text
+    {
+        font-size: 20px;
+        line-height: 28px;
     }
 
 
@@ -188,6 +220,148 @@
         width: calc(20% - 24px);
         margin-bottom: 24px;
         margin-left: 24px;
+    }
+
+
+
+    /*-----------------
+        Our mission
+    -----------------*/
+    .our_mission
+    {
+        margin-bottom: 48px;
+        padding: 48px 0;
+    }
+
+
+    .our_mission .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    .our_mission .text_block
+    {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    .our_mission .author
+    {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .our_mission .author .socials a + a
+    {
+        margin-left: 24px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .cont
+    {
+        padding: 0 24px;
+    }
+
+
+
+    /*------------
+        Career
+    ------------*/
+    .career .list
+    {
+        width: 300px;
+    }
+
+
+    .career .list .items a
+    {
+        font-size: 18px;
+
+        padding: 24px;
+    }
+
+
+    .career .data
+    {
+        width: calc(100% - 300px);
+    }
+
+
+    .career .data .title
+    {
+        font-size: 32px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .title
+    {
+        font-size: 32px;
+    }
+
+
+    .feedback .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    .feedback .text_block
+    {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+
+    /*---------------------
+        Strategies list
+    ---------------------*/
+    .strategies_list
+    {
+        padding-top: 40px;
+        padding-bottom: 8px;
+    }
+
+
+    .strategies_list .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    .strategies_list .strategy .title
+    {
+        font-size: 32px;
+
+        margin-bottom: 32px;
+    }
+
+
+
+    /*-------------------
+        Strategy info
+    -------------------*/
+    .strategy_info .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    .strategy_info .title
+    {
+        font-size: 32px;
+
+        margin-bottom: 32px;
     }
 
 

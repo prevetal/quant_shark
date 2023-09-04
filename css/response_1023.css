@@ -10,13 +10,9 @@
     }
 
 
-
-    /*--------------
-        Fancybox
-    --------------*/
-    .fancybox__slide
+    .block
     {
-        padding: 24px;
+        margin-bottom: 68px;
     }
 
 
@@ -62,6 +58,23 @@
 
 
 
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 28px;
+        padding-top: 20px;
+    }
+
+
+    .breadcrumbs
+    {
+        font-size: 14px;
+    }
+
+
+
     /*----------------
         Block head
     ----------------*/
@@ -75,16 +88,9 @@
     /*----------------
         Typography
     ----------------*/
-    .text_block
+    .text_block h2
     {
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-
-    .text_block > *
-    {
-        margin-bottom: 20px;
+        margin-bottom: 24px !important;
     }
 
 
@@ -117,7 +123,13 @@
     /*----------------
         About text
     ----------------*/
-    .about_text .text_block br
+    .about_text .text
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .about_text .text br
     {
         display: none;
     }
@@ -166,6 +178,121 @@
     .technologies .row > *
     {
         width: calc(25% - 24px);
+    }
+
+
+
+    /*-----------------
+        Our mission
+    -----------------*/
+    .our_mission
+    {
+        margin-bottom: 40px;
+        padding: 32px 0;
+    }
+
+
+    .our_mission .data
+    {
+        width: calc(100% - 296px);
+    }
+
+
+    .our_mission .author
+    {
+        margin-top: 24px;
+    }
+
+
+    .our_mission .image
+    {
+        width: 280px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .cont
+    {
+        padding: 0 24px;
+    }
+
+
+
+    /*------------
+        Career
+    ------------*/
+    .career .list
+    {
+        position: relative;
+
+        width: 100%;
+    }
+
+
+    .career .list .items a
+    {
+        font-size: 17px;
+
+        padding: 20px 24px;
+    }
+
+
+    .career .data
+    {
+        width: 100%;
+        padding: 40px 24px;
+    }
+
+
+    .career .data .title
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        padding: 40px 0;
+    }
+
+
+    .feedback .text_block,
+    .feedback .form
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*---------------------
+        Strategies list
+    ---------------------*/
+    .strategies_list .strategy .title
+    {
+        margin-bottom: 28px;
+    }
+
+
+
+    /*-------------------
+        Strategy info
+    -------------------*/
+    .strategy_info:not(.block)
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .strategy_info .title
+    {
+        margin-bottom: 28px;
     }
 
 
