@@ -28,6 +28,11 @@
         box-shadow: 0 0 16px rgba(20, 59, 68, .50);
     }
 
+    header.absolute
+    {
+        padding: 24px 0;
+    }
+
 
     header .cont
     {
@@ -35,7 +40,8 @@
     }
 
 
-    header .logo img
+    header .logo img,
+    header.absolute .logo img
     {
         height: 56px;
     }

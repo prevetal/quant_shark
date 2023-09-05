@@ -20,13 +20,8 @@
     /*------------
         Header
     ------------*/
-    header .cont
-    {
-        padding: 0 24px;
-    }
-
-
-    header .logo img
+    header .logo img,
+    header.absolute .logo img
     {
         height: 40px;
     }
