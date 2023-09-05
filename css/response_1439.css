@@ -16,7 +16,8 @@
     }
 
 
-    header.fixed
+    header.fixed,
+    header.fixed.absolute
     {
         padding: 20px 0;
     }

@@ -22,14 +22,16 @@
         Header
     ------------*/
     header,
-    header.absolute
+    header.absolute,
+    header.fixed.absolute
     {
         padding: 14px 0 18px;
     }
 
 
     header .logo img,
-    header.absolute .logo img
+    header.absolute .logo img,
+    header.fixed.absolute .logo img
     {
         height: 32px;
     }

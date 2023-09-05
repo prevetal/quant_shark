@@ -21,7 +21,8 @@
         Header
     ------------*/
     header .logo img,
-    header.absolute .logo img
+    header.absolute .logo img,
+    header.fixed.absolute .logo img
     {
         height: 40px;
     }
@@ -40,7 +41,8 @@
 
 
     header.fixed,
-    .menu_open header
+    .menu_open header,
+    header.fixed.absolute
     {
         padding: 14px 0 18px;
     }
